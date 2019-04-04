@@ -20,10 +20,12 @@ for bank in dataBlob:
     for s in bank["data"]["NAME"].split():
         for c in string.punctuation:
             s = s.replace(c,"")
-            if s in words.keys():
-                words[s] += 1
-            else:
-                words[s] = 1
+        if s in words.keys():
+            words[s] += 1
+            print(s)
+        else:
+            words[s] = 1
+            print(s)
                 
 for w in sorted(words, key=words.get, reverse=True):
     print(w, words[w])
