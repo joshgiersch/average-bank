@@ -22,10 +22,8 @@ for bank in dataBlob:
             s = s.replace(c,"")
         if s in words.keys():
             words[s] += 1
-            print(s)
         else:
             words[s] = 1
-            print(s)
                 
 for w in sorted(words, key=words.get, reverse=True):
     print(w, words[w])
