@@ -2,7 +2,7 @@
 
 What's the most "average" bank name in America? According to the FDIC's API of registered banks, it's: 
 
-_The First State Savings Bank and Trust Company, National Association_
+_The First State of Savings Bank and Trust Company, National Association_
 
 Now you know.
 
